@@ -1,4 +1,4 @@
-# Eat n Chill – Healthy Meal Subscription Site
+# Proteins N Salads – Healthy Meal Subscription Site
 
 Static site (`index.html`, `style.css`, `script.js`, `img/`). Hosted free on GitHub Pages.
 
