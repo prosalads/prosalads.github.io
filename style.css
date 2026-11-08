@@ -59,3 +59,5 @@ footer a{color:var(--gold)}
 .price small{font-size:.9rem;font-weight:400;color:var(--muted)}
 .per{margin:0 0 10px;color:var(--green);font-weight:600;font-size:.9rem}
 .tag.off{background:var(--gold);color:var(--brown)}
+.brand{display:inline-flex;align-items:center;gap:8px}
+.hero .logo{display:block;width:170px;height:170px;margin:0 auto 20px}

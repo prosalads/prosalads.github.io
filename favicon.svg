@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="31" fill="#17391f"/>
+  <circle cx="32" cy="32" r="27" fill="#f5b800"/>
+  <circle cx="32" cy="32" r="23" fill="#fffbea"/>
+  <path d="M32 40 C22 34 22 22 32 14 C42 22 42 34 32 40Z" fill="#2f7d32"/>
+  <path d="M32 38 L32 20" stroke="#d9efc9" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="32" y="54" text-anchor="middle" font-family="Arial,sans-serif" font-weight="900" font-size="13" fill="#4a2a17">PNS</text>
+</svg>
