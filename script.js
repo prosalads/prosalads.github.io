@@ -1,6 +1,6 @@
 // Sign-ups are emailed via FormSubmit.co (free, no Google sign-in needed). See README.md.
-// Replace with the owner's email, or the private alias FormSubmit gives after activation.
-const FORM_TARGET = "kiaraeatnchill@gmail.com";
+// FormSubmit private alias (keeps the owner's email out of the public code).
+const FORM_TARGET = "ee372d435fe152a19e51d2ac387e2ed9";
 
 const WHATSAPP = "917599444444";
 const form = document.getElementById("form");

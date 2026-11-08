@@ -55,3 +55,7 @@ form .btn{background:var(--brown);color:var(--gold)}
 .wa{text-align:center;color:var(--muted)}
 footer{background:var(--brown);color:#ecdcc8;text-align:center;padding:28px 16px;font-size:.9rem}
 footer a{color:var(--gold)}
+.price s{font-size:1rem;font-weight:400;color:var(--muted)}
+.price small{font-size:.9rem;font-weight:400;color:var(--muted)}
+.per{margin:0 0 10px;color:var(--green);font-weight:600;font-size:.9rem}
+.tag.off{background:var(--gold);color:var(--brown)}
