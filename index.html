@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eat N Chill – Fresh Salad Subscription, Moradabad</title>
+<meta name="description" content="Fresh salads delivered to your door in Moradabad. Subscribe weekly or monthly with Eat N Chill.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#top">Eat N Chill</a>
+  <a class="btn btn-sm" href="#subscribe">Subscribe</a>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <p class="eyebrow">Salad subscription · Moradabad</p>
+    <h1>Fresh salads at your door. Every day.</h1>
+    <p class="lead">Skip the daily "what should I eat" question. Pick a plan, tell us where you are, and we'll call you to set it all up.</p>
+    <a class="btn" href="#subscribe">Start my subscription</a>
+  </section>
+
+  <section class="section" id="how">
+    <h2>How it works</h2>
+    <ol class="steps">
+      <li><b>Register</b><span>Fill the short form below.</span></li>
+      <li><b>We call you</b><span>We confirm your plan, menu and payment.</span></li>
+      <li><b>Eat fresh</b><span>Salads arrive on the days you choose.</span></li>
+    </ol>
+  </section>
+
+  <section class="section" id="plans">
+    <h2>Plans</h2>
+    <p class="note">Sample plans and prices, to be updated.</p>
+    <div class="cards">
+      <article class="card">
+        <h3>Weekly</h3>
+        <p class="price">₹XXX <small>/ week</small></p>
+        <ul><li>6 salads a week</li><li>Choose your days</li><li>Pause anytime</li></ul>
+      </article>
+      <article class="card featured">
+        <span class="tag">Best value</span>
+        <h3>Monthly</h3>
+        <p class="price">₹XXXX <small>/ month</small></p>
+        <ul><li>26 salads a month</li><li>Rotating menu</li><li>Priority delivery slot</li></ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="menu">
+    <h2>What's in the bowl</h2>
+    <div class="cards three">
+      <article class="card"><h3>Protein Power</h3><p>Grilled paneer, chickpeas, greens, lemon dressing.</p></article>
+      <article class="card"><h3>Garden Crunch</h3><p>Cucumber, carrot, beetroot, sprouts, herb vinaigrette.</p></article>
+      <article class="card"><h3>Fruit &amp; Nut</h3><p>Seasonal fruit, seeds, nuts, honey-lime dressing.</p></article>
+    </div>
+    <p class="note">Placeholder menu, to be replaced with the real one.</p>
+  </section>
+
+  <section class="section form-section" id="subscribe">
+    <h2>Subscribe</h2>
+    <p>No payment now. We'll call you to confirm.</p>
+    <form id="form" novalidate>
+      <label>Name
+        <input name="name" required autocomplete="name">
+      </label>
+      <label>Phone number
+        <input name="phone" type="tel" inputmode="numeric" required pattern="[0-9+\s\-]{10,15}" autocomplete="tel" placeholder="10-digit mobile">
+      </label>
+      <label>Delivery address
+        <textarea name="address" rows="3" required autocomplete="street-address"></textarea>
+      </label>
+      <div class="row">
+        <label>Plan
+          <select name="plan" required>
+            <option value="">Select…</option>
+            <option>Weekly</option>
+            <option>Monthly</option>
+          </select>
+        </label>
+        <label>Start date
+          <input name="startDate" type="date" required>
+        </label>
+      </div>
+      <label>Preferred delivery time
+        <select name="deliveryTime" required>
+          <option value="">Select…</option>
+          <option>Morning (8–10 am)</option>
+          <option>Lunch (12–2 pm)</option>
+          <option>Evening (5–7 pm)</option>
+        </select>
+      </label>
+      <label>Dietary notes / allergies <span class="opt">(optional)</span>
+        <textarea name="notes" rows="2" placeholder="e.g. no onion, vegan, nut allergy"></textarea>
+      </label>
+      <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn" type="submit" id="submit">Register for subscription</button>
+      <p id="msg" role="status"></p>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>© Eat N Chill, Moradabad · <a href="https://www.instagram.com/kiara_eat_n_chill/" target="_blank" rel="noopener">Instagram</a></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
